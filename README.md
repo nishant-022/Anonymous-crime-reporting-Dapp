@@ -1,15 +1,43 @@
-# Anonymous-crime-reporting-Dapp using blockchain 
-The goals of the project are:   
-• Encryption and Anonymous Reporting Features will be deployed to maintain 
-Anonymity of crime reporters.   
-• With blockchain technology, claiming Data Integrity by removing the ability to edit 
-or delete submitted crime reports is possible.   
-• Removal of technical barriers for citizens on the user friendly web interface 
-facilitates crime reporting, thus accomplishing the goal of Accessibility.    
-• Accessible reports will be provided to law enforcement agencies in secured beyond 
-alteration access control ensuring Transparency for Law Enforcement.   
-• Bullying free crime reporting will be aided by Trust between citizens and authorities 
-facilitating Encouragement Civic Engagement.   
-• Law enforcement is provided with reliable, transparent, and irrevocable data, 
-enabling them to access timely crime reports, thus fostering a greater sense of 
-community.
+# 🕵️‍♂️ Anonymous Crime Reporting System (Blockchain-Based)
+Anonymous Crime Reporting System is a decentralized web application designed to empower individuals to report crimes securely and anonymously using blockchain technology. In many societies, fear of retaliation or lack of trust in law enforcement discourages people from coming forward. This project eliminates that fear by leveraging the Ethereum blockchain (Sepolia Testnet), cryptography, and a user-friendly web interface to ensure that reports are:
+
+Anonymous – No personal data is collected or stored
+
+Immutable – Reports cannot be tampered with once submitted
+
+Transparent – Every report is verifiable on the blockchain
+
+The frontend is built using React.js, HTML, CSS, and JavaScript, offering a modern and intuitive user experience. On the backend, Solidity smart contracts handle report storage and verification on the blockchain, while Node.js manages interaction with the network and off-chain operations. Additional cryptographic techniques ensure the privacy and integrity of every submission.
+Tech Stack – Anonymous Crime Reporting System
+🔗 Blockchain
+Ethereum (Sepolia Testnet) – Blockchain for secure, immutable storage
+
+Solidity – Smart contract development
+
+Hardhat – Contract deployment and testing
+
+Ethers.js / Web3.js – Blockchain interaction
+
+MetaMask – Wallet for user authentication
+
+🔐 Security & Cryptography
+Encryption & Hashing – To ensure anonymity and data integrity
+
+.env – Secure environment variable management
+
+🌐 Frontend
+React.js – UI framework
+
+HTML, CSS, JavaScript – Interface design and interactivity
+
+⚙️ Backend
+Node.js – Server-side operations
+
+Express.js (optional) – API handling
+
+🛠️ Development Tools
+Git & GitHub – Version control and collaboration
+
+npm / yarn – Dependency management
+
+
